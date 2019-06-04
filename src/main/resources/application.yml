@@ -1,0 +1,8 @@
+# application.yml
+spring:
+  datasource:
+    url: jdbc:mysql://daxiongmysql.cm1x16pybjgb.us-east-2.rds.amazonaws.com:3306/daxiong?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: fengyang
+    password: fy3533263
+    schema: classpath:schema.sql
